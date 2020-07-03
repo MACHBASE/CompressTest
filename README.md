@@ -58,6 +58,6 @@
     100 - ( DB file size * 100 / Data size to input)
 * BinaryCompress_Test1 is described as an example below.
   - Data size to input  : 8,204 Byte * (80,000 * 10 times) = 6,563,200,000 Byte (About 6.5GB)
-  - DB file size        :                          = 1,904,083,753 Byte (About 1.8GB)
+  - DB file size        :                                  = 1,904,083,753 Byte (About 1.8GB)
   - Compression ratio   : 100 - (1,904,083,753 * 100 / 6,563,200,000) = 70.9 %
 ```
