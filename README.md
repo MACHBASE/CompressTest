@@ -1,16 +1,17 @@
-1. BinaryCompress_Test1 은 Binary 타입에 대한 압축률 테스트로써, 샘플데이터를 읽어 동일한 데이터를 입력하는 테스트이다.
-  1) 테스트케이스 이동
-    cd BinaryCompress_Test1
-  2) 테이블 생성(테스트마다 재생성)
-    machsql -u sys -p manager -s 127.0.0.1 -P 5656 -f ../1.create_table_binary.sql
-  3) 테스트 데이터 입력
-    text_binary.txt 파일 확인
-    ./bincompress1 -s 20200701 -a 1 -n 10 -P 5656 --disable-delay
-  4) DB 파일 사이즈 측정
-    du -bs [DB 파일 위치] 
-    du -hs [DB 파일 위치] 
+#[이진형태의 데이터 압축률을 테스트]
 
-2. BinaryCompress_Test2 은 Binary 타입에 대한 압축률 테스트로써, 랜덤데이터를 생성하여 데이터를 입력하는 테스트이다.
+##1. BinaryCompress_Test1 은 Binary 타입에 대한 압축률 테스트로써, 샘플데이터를 읽어 동일한 데이터를 입력하는 테스트이다.
+    ###1) 테스트케이스 이동
+        ###cd BinaryCompress_Test1
+    ###2) 테이블 생성(테스트마다 재생성)
+        ###machsql -u sys -p manager -s 127.0.0.1 -P 5656 -f ../1.create_table_binary.sql
+    ###3) 테스트 데이터 입력
+        ###text_binary.txt 파일 확인
+        ###./bincompress1 -s 20200701 -a 1 -n 10 -P 5656 --disable-delay
+    ###4) DB 파일 사이즈 측정
+        ###du -bs [DB 파일 위치] 
+
+##2. BinaryCompress_Test2 은 Binary 타입에 대한 압축률 테스트로써, 랜덤데이터를 생성하여 데이터를 입력하는 테스트이다.
   1) 테스트케이스 이동
     cd BinaryCompress_Test2
   2) 테이블 생성(테스트마다 재생성)
