@@ -1,0 +1,6 @@
+DROP TABLE COMPRESS_TEST;
+
+CREATE TABLE COMPRESS_TEST
+(
+    DATA        binary
+);
