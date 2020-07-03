@@ -1,5 +1,17 @@
-[Binary format data compression test]
+How to compile.
+---------------
+
+make  
+or  
+make clean  
+make  
+
+
+Binary format data compression test
 ----------------------------------
+
+
+
 ```
 1. BinaryCompress_Test1 is a compression rate test for binary format. 
    A test that reads sample data and enters the same data.
