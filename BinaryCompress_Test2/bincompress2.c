@@ -254,7 +254,7 @@ int setDBData (SQLHSTMT aStmt, SQL_APPEND_PARAM *sParam , unsigned long long sTi
         char *textdata =  bdata[ randomInt2(0, 9, idx) ];
         sParam[0].mBinary.mLength      = strlen(textdata);
         sParam[0].mBinary.mData        = textdata;
-        //fprintf (stderr, "mData : [%s]", sParam[0].mBinary.mData);
+        //fprintf (stderr, "mData : [%s]\n", sParam[0].mBinary.mData);
 
 
 #ifdef _APPEND_TIMETEST_
